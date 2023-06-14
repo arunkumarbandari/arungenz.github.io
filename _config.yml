@@ -1,8 +1,8 @@
 title: "Affiliates"
 email: wowthemesnet@gmail.com
 timezone: UTC
-url: "https://arunkumarbandari.github.io/"
-baseurl: "arungenz.github.io/"
+url: "https://arunkumarbandari.github.io"
+baseurl: "/arungenz.github.io/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'

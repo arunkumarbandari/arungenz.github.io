@@ -10,6 +10,9 @@ $blue:    #3d61fd !default;
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway&display=swap');
+
 
 /* add additional CSS rules below */
 html {
@@ -20,7 +23,7 @@ body {
     background:#fff;
     font-size:17px;
     transition: all 200ms linear;
-    font-family: "PT Sans",sans-serif;
+    font-family: "Raleway";
     line-height:1.7;
     color: #333;
     overflow-x:hidden;
@@ -29,6 +32,12 @@ body {
 }
 .serif-font {
     font-family:PT Serif;
+}
+.content-font {
+    font-family: "Raleway";
+}
+.heading-font {
+    font-family: "Oswald";
 }
 @media (max-width: 1366px) {
     .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -542,8 +551,8 @@ background-color: #fff;
 .sidebar-right .sidebar {max-width:inherit;}
 
 .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
-    font-weight: 600;
-    font-family: PT Sans;
+    font-weight: 400;
+    font-family: "Oswald";
     margin-top: 3rem;
 }
 
@@ -610,11 +619,13 @@ span.navigation:before {
 }
 
 .hover-opacity:hover {
-    transition: all.3s;
+    transition: all;
     opacity:.8;
 }
 
 .footer-img {
-    height: 30vh;
-    width: 50vw;
+    height: 100px;
+    width: 600px;
+    padding-bottom: -20px;
+    margin-bottom: -40px;
 }

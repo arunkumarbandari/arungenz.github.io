@@ -3,7 +3,7 @@ layout: post
 title:  "All About Thrifting"
 author: Arun
 categories: [ Thrift, fashion ]
-image: assets/images/2.jpg
+image: assets/images/thrift.svg
 ---
 
 ## •	What is thrifting?

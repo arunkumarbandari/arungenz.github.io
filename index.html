@@ -4,26 +4,50 @@ layout: default
 background: '/img/bg-index.jpg'
 ---
 
+{% if site.paginate %}
+    {% assign posts = paginator.posts | where_exp:"post","post.is_generated != true" %}
+{% else %}
+    {% assign posts = site.posts | where_exp:"post","post.is_generated != true" %}
+{% endif %}
+
+{% if site.show_hero and paginator == nil or paginator.page == 1 %}
+    {% assign offset = 1 %}
+{% else %}
+    {% assign offset = 0 %}
+{% endif %}
+
 <!-- Home Intro
-================================================== -->
+ ================================================== -->
+
+{% assign featured = posts.first %}
 {% if page.url == "/" %} 
-<div class="rounded mb-5 hero">
+<div class="rounded mb-5 hero col-12" style="background-image: url({{ featured.image }})">
+  <div class="gradient"></div>
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
-      <h1 class="font-weight-bold mb-4 heading-font">Let me  teach you how to become successful online</h1>
-      <p class="lead mb-4">My name is Lyam and I'm here to share with you my knowledge and experience of over 10 years of monetizing my blog.</p>
-      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
+        <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">
+            {% if site.date_format == nil %}
+                {{ featured.date | date: "%m.%d.%Y" }}
+            {% else %}
+                {{ featured.date | date: site.date_format }}
+            {% endif %}
+        </time>
+        <div class="d-flex flex-column">
+            <a href="{{ featured.url | prepend: site.baseurl }}" class="title">{{ featured.title }}</a>
+            <p class="description">{{ featured.subtitle }}</p>
+        </div>
+      <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="btn btn-dark text-white px-5 btn-lg">Read Now</a>
     </div>
-    <div class="col-md-6 text-right pl-0 pl-lg-4">
+    <!-- <div class="col-md-6 text-right pl-0 pl-lg-4">
       <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">      
-    </div>
+    </div> -->
   </div>
 </div>
 {% endif %}
 
-<!-- Featured
+<!-- Featured 
 ================================================== -->
-<section class="row">
+<section class="row pt-5">
   {% for post in site.posts %}
       {% if post.featured == true %}
           <div class="col-md-4 mb-5">

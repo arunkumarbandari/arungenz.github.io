@@ -19,6 +19,8 @@ Sustainable fashion is an environmental friendly fashion revolution which causes
 There is a thin line between thrifting and buying vintage clothing. We can call buying vintage stuff as thrifting if they are loved by someone previously. Vintage clothing can include 90s or before clothing and some of the people sell it as a privilege because vintage clothes are a rare find. A regular thrifting can be from the new era that were loved previously or just some months back stock that was smuggled (I don’t know if I can call that) from factory outlet for a way lesser price and sold in thrift stores. Sometimes you can find peak luxurious products in thrift stores that are for way lesser prices. That is the very beauty of thrifting.
 
 ![Reference from Fight Club]({{ site.baseurl }}/assets/images/fight-club.gif)
+<br>
+_Courtesy : Fight Club (1999)_
 
 ## •	What do you get in thrift stores?
 
@@ -29,6 +31,8 @@ A product in a thrift store can be any item that can be used by a person. We can
 It is all about the curiosity about the efforts they put in the work. The brands that are very “vintageous” like a Levi’s or wrangler are established in the early 19th century. Since then, they used to manufacture various type of workwear for ease of work. A carpenter pants that are started as a trend in workwear culture, does have various pockets for carrying tools. A pocket that is after the front pocket is designed to hold tools. A double knee pants has an extra stitch around the knee part for putting on a knee pad for various people that work in industries. Though the industrial revolution is taking place in the countries, people never stopped making comfortable wear for the ease of work. FYI, we are in Industrial Revolution 4.0. Brands like dickies, Carhartt, etc., still manufacture workwear as per the vintage designs.
 
 ![Reference from Old Town Road]({{ site.baseurl }}/assets/images/old-town-road.gif)
+<br>
+_Courtesy : Old Town Road by Lil Nas X_
 
 ## •	Thrifting in India
 
@@ -39,7 +43,7 @@ Amazon india sells some workwear clothes like dickies double knee pants but cost
 
 ## •	How to find thrift stores in India?
 
-Popular cities like Delhi, Mumbai, Bangalore has many thrift stores compared to other cities. Delhi is the main city where you can find a lot of thrift stores in markets like Sarojini Nagar Market or Instagram business pages. I have attached some of the reliable stores that are up to my knowledge and experiences. Please beware of scammers as internet is full of people that theft money. More knowledge explored in the upcoming blogs. Please comment for feedback/query/suggestions.
+Popular cities like Delhi, Mumbai, Bangalore has many thrift stores compared to other cities. Delhi is the main city where you can find a lot of thrift stores in markets like Sarojini Nagar Market or Instagram business pages. I have attached some of the reliable stores that are up to my knowledge and experiences. Please beware of scammers as internet is full of people that theft money. More stuff will be explored in the upcoming blogs. Please comment for feedback/queries/suggestions.
 
 
 ### Some of the Instagram Usernames :

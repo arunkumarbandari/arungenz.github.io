@@ -21,21 +21,23 @@ background: '/img/bg-index.jpg'
 
 {% assign featured = posts.first %}
 {% if page.url == "/" %} 
-<div class="rounded mb-5 hero col-12" style="background-image: url({{ featured.image }})">
+<div class="rounded mb-5 hero col-12 d-flex flex-column justify-content-end" style="background-image: url({{ featured.image }})">
   <div class="gradient"></div>
-  <div class="row align-items-center justify-content-between">
+  <div class="row">
+    <div class="d-flex flex-column">
+      <a href="{{ featured.url | prepend: site.baseurl }}" class="title d-none d-md-block" id="headingText">{{ featured.title }}</a>
+      <a href="{{ featured.url | prepend: site.baseurl }}" class="title d-block d-md-none" id="headingTextSmall">{{ featured.title }}</a>
+      <p class="description">{{ featured.subtitle }}</p>
+    </div>
     <div class="col-md-6">
-        <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">
+        <time datetime="{{ featured.date | date_to_xmlschema }}" class="date" id="dateAndTime">
             {% if site.date_format == nil %}
                 {{ featured.date | date: "%m.%d.%Y" }}
             {% else %}
                 {{ featured.date | date: site.date_format }}
             {% endif %}
         </time>
-        <div class="d-flex flex-column">
-            <a href="{{ featured.url | prepend: site.baseurl }}" class="title">{{ featured.title }}</a>
-            <p class="description">{{ featured.subtitle }}</p>
-        </div>
+      <br/>
       <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="btn btn-dark text-white px-5 btn-lg">Read Now</a>
     </div>
     <!-- <div class="col-md-6 text-right pl-0 pl-lg-4">

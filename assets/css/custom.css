@@ -2,5 +2,46 @@
 Don't want to use sass and simply modify the stylesheet in the old css fashion? 
 Just customize your theme here.
 ================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
 
-body {}
+#headingText {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  position: absolute;
+  text-align: left !important;
+  color: #dd1630;
+  top: 65%;
+  left: 17.5%;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+   transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+#headingText:hover {
+  background-image: linear-gradient(#dd1630, #dd1630);
+  color: #ffffff;
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+
+#headingTextSmall {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    position: absolute;
+    color: #dd1630;
+    top: 68%;
+}
+
+#dateAndTime {
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    color: #dd1630;
+}
+}
+

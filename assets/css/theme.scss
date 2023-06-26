@@ -96,8 +96,7 @@ small, .small {
 
 .start-header {
 	opacity: 1;
-	transform: translateY(0);
-	padding: 20px 0;	
+	transform: translateY(0);	
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
    
@@ -114,13 +113,16 @@ small, .small {
 }
 .navigation-wrap {	
 	width: 100%;
+    margin: 0;
+    padding: 0;
 	top: 0;
 	left: 0;
 	z-index: 9999;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
     position:fixed;
-    background:#fff;
+    background:#b11226;
+    color: #ffffff;
 }
 .social-icon {
     display: inline-block !important;

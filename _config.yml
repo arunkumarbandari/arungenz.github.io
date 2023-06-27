@@ -5,7 +5,7 @@ url: "https://arunkumarbandari.github.io"
 baseurl: "/arungenz.github.io"
 permalink: "/:title/"
 logo: 'assets/images/final-navbar.svg'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/final-navbar.svg'
 author: Sal
 paginate: 30
 disqus: 'demowebsite'

@@ -43,5 +43,11 @@ body {
     position: absolute;
     color: #dd1630;
 }
+
+#customButton {
+  background-color: #b11226;
+  border: 0px;
+}
+
 }
 

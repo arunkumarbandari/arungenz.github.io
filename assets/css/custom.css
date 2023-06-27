@@ -49,5 +49,53 @@ body {
   border: 0px;
 }
 
+#navItem1 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+#navItem2 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+#navItem3 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+#navItem4 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+#navItem5 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+.navbarBackground {
+  background-color: #0C0521;
+   !important color: white;
+}
+
+.navbar-img {
+  width: 140px;
+  height: 40px;
+}
+
+.buttonclass {
+  background-color: white;
+}
 }
 

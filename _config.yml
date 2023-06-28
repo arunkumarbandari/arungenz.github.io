@@ -1,8 +1,8 @@
 title: "Fashion Forward Techie"
 email: arunkumartxx@gmail.com
 timezone: UTC
-url: "https://arunkumarbandari.github.io"
-baseurl: "/arungenz.github.io"
+url: "https://fashion-forward.tech/"
+baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/final-navbar.svg'
 favicon: 'assets/images/final-navbar.svg'

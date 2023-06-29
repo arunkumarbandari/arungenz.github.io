@@ -1,5 +1,6 @@
 title: "Fashion Forward Techie"
 email: contact@fashion-forward.tech
+description: "Fashion and Tech"
 timezone: UTC
 url: "https://fashion-forward.tech"
 baseurl: ""
@@ -30,8 +31,8 @@ authors:
     display_name: arun
     avatar: 'assets/images/sal.png'
     email: arunkumarbandari309@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
+    web: 
+    twitter: https://twitter.com/ArunStarkTx
     description: "Author of Fashion Forward Techie."
   
 

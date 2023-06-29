@@ -1,12 +1,12 @@
 title: "Fashion Forward Techie"
-email: arunkumartxx@gmail.com
+email: contact@fashion-forward.tech
 timezone: UTC
-url: "https://fashion-forward.tech/"
+url: "https://fashion-forward.tech"
 baseurl: ""
 permalink: "/:title/"
-logo: 'assets/images/final-navbar.svg'
+logo: 'assets/images/navbar-white.svg'
 favicon: 'assets/images/final-navbar.svg'
-author: Sal
+author: Arunkumar
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
@@ -32,7 +32,7 @@ authors:
     email: arunkumarbandari309@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "Author of Fashion Forward Techie."
   
 
 # Social

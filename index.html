@@ -23,12 +23,13 @@ background: '/img/bg-index.jpg'
 {% if page.url == "/" %} 
 <div class="rounded mb-5 hero col-12 d-flex flex-column justify-content-end" style="background-image: url({{ featured.image }})">
   <div class="gradient d-flex flex-column justify-content-end">
-  <div class="m-5">
+  <div class="m-4">
+    <h1></h1>
+    <p class="description" id="bannerHeading">{{ featured.title }}</p>
     <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="btn btn-dark text-white px-5 btn-lg" id="customButton">Read Now</a>
   </div>
     <!-- <div class="d-flex flex-column">
       <a href="{{ featured.url | prepend: site.baseurl }}" class="title d-none d-xl-block" id="headingText">{{ featured.title }}</a>
-      <p class="description">{{ featured.subtitle }}</p>
     </div>
      <div class="col-md-6">
          <time datetime="{{ featured.date | date_to_xmlschema }}" class="date" id="dateAndTime">

@@ -78,3 +78,4 @@ image: assets/images/walkman-banner.svg
     &emsp;Enthusiasts like me still yearn for retro collections such as the Walkman, Nintendo, vintage clothing, etc. They bring greater value with time as they are a part of our past. I guess I gave you enough information concerning the Walkman. Please offer your feedback and let us discuss it more in the comments as well. Peace.
 </div>
 
+

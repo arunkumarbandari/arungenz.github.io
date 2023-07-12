@@ -3,7 +3,7 @@ email: contact@fashion-forward.tech
 description: "Fashion and Tech"
 timezone: UTC
 url: "https://fashion-forward.tech"
-baseurl: ""
+baseurl: "/arungenz.github.io/"
 permalink: "/:title/"
 logo: 'assets/images/navbar-white.svg'
 favicon: 'assets/images/final-navbar.svg'

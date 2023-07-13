@@ -16,7 +16,7 @@ background: '/img/bg-index.jpg'
     {% assign offset = 0 %}
 {% endif %}
 
-<!-- Home Intro 
+<!-- Home Intro
  ================================================== -->
 
 {% assign featured = posts.first %}
@@ -28,23 +28,6 @@ background: '/img/bg-index.jpg'
     <p class="description" id="bannerHeading">{{ featured.title }}</p>
     <a href="{{ featured.url | prepend: site.baseurl }}" role="button" class="btn btn-dark text-white px-5 btn-lg" id="customButton">Read Now</a>
   </div>
-    <!-- <div class="d-flex flex-column">
-      <a href="{{ featured.url | prepend: site.baseurl }}" class="title d-none d-xl-block" id="headingText">{{ featured.title }}</a>
-    </div>
-     <div class="col-md-6">
-         <time datetime="{{ featured.date | date_to_xmlschema }}" class="date" id="dateAndTime">
-            {% if site.date_format == nil %}
-                {{ featured.date | date: "%m.%d.%Y" }}
-            {% else %}
-                {{ featured.date | date: site.date_format }}
-            {% endif %}
-        </time>
-      <br/>
-      
-    </div>
-    <div class="col-md-6 text-right pl-0 pl-lg-4">
-      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">      
-    </div> true -->
   </div>
 </div>
 

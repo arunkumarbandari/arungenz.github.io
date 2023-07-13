@@ -1,12 +1,12 @@
 <div class="container">
     <div class="message">
         <strong>{{ site.translations.recommendation.text | default: "Why don't you read something next?" }}</strong>
-        <div>
+        <!-- <div>
             <button>
                 <svg><use xlink:href="#icon-arrow-right"></use></svg>
                 <span>{{ site.translations.recommendation.back_btn | default: "Go back to top" }}</span>
             </button>
-        </div>
+        </div> -->
     </div>
     {% if page.next %}
         {% assign recommendation = page.next %}
@@ -20,7 +20,7 @@
             {% if recommendation.optimized_image %}
                 <img src="{{ site.baseurl }}/{{ page.image }}" alt="recommendation_img">
             {% elsif recommendation.image %}
-                <img src="{{ site.baseurl }}/{{ page.image  }}" alt="recommendation_img">
+                <img src="{{ site.baseurl }}/{{ page.next.image  }}" alt="recommendation_img">
             {% else %}
                 <img src="{{site.baseurl}}/assets/images/recommendation-img.svg" alt="recommendation_img">
             {% endif %}

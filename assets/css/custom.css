@@ -49,6 +49,10 @@ body {
   border: 0px;
 }
 
+#customButton:hover {
+  background-color: #790612;
+}
+
 .navbarBackground {
   background-color: #0C0521;
    !important color: white;
